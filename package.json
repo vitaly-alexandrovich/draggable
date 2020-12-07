@@ -1,0 +1,19 @@
+{
+  "name": "empty-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/dist/index.js",
+  "types": "/dist/index.d.ts",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "build": "parcel build src/index.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "parcel": "^2.0.0-nightly.469",
+    "typescript": "^4.1.2"
+  }
+}
